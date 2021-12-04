@@ -1,0 +1,56 @@
+canvas {
+    position: fixed !important;
+    left: 0 !important;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+body {
+    border: 0;
+}
+
+button {
+    z-index: 10;
+    height: 50px;
+    width: auto !important;
+    background: rgba(50, 205, 50, 0.589);
+    color: white;
+    border: none;
+    line-height: 50px;
+    font-family: arial;
+    font-size: 25px;
+}
+
+#buttons {
+    border-radius: 10px;
+    text-align: center;
+    background: lime;
+    line-height: 50px;
+    font-family: arial;
+    color: white;
+    font-size: 25px;
+    position: fixed !important;
+    right: 25px;
+    bottom: 10px;
+    width: 200px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, 52.5px);
+    z-index: 10;
+    overflow: hidden;
+}
+
+input {
+    width: 200px;
+    padding: 0;
+    background: rgba(50, 205, 50, 0.589);
+    border: none;
+    height: 50px;
+    font-family: arial;
+    color: white;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+}
